@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Never commit cookies: they can log someone into your accounts
+cookies*.txt
+yt_cookies_*.txt
+
+# URL lists you keep locally
+urls.txt
+
+# Partial / downloaded media
+*.part
+*.ytdl
+*.mp4
+*.m4a
+*.webm
+*.mkv
+*.vtt
+*.srt
+
+# OS clutter
+.DS_Store
+Thumbs.db
