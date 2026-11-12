@@ -224,3 +224,5 @@ Press `Ctrl+C` to stop. Rerun the same command to resume partial downloads.
 - **Downloads suddenly fail or return "Sign in to confirm" / format errors**: YouTube changes often. Update yt-dlp with `pip install -U -r requirements.txt` (or `sudo pacman -Syu` if you use the Arch package).
 - **Video and audio come out as separate files, or `--audio` fails**: ffmpeg is missing or not on your PATH. Check with `ffmpeg -version`.
 - **`--cookies-from chrome` fails**: close the browser first. Recent Chrome and Edge versions on Windows encrypt cookies in a way yt-dlp can't always read. Use Firefox instead, or export a `cookies.txt` with a browser extension and pass `--cookies cookies.txt`. Never commit that file to git.
+
+This file was created by Claude based on an analysis of other project files.
